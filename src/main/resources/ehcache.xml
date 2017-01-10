@@ -22,5 +22,29 @@
 
     <cache alias="com.tenshun.employeemanagement.social.SocialUserConnection" uses-template="simple"/>
 
+    <cache alias="com.tenshun.employeemanagement.domain.Region" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Country" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Location" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Department" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Department.employees" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Task" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Task.jobs" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Employee" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Employee.jobs" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Job" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.Job.tasks" uses-template="simple"/>
+
+    <cache alias="com.tenshun.employeemanagement.domain.JobHistory" uses-template="simple"/>
+
     <!-- jhipster-needle-ehcache-add-entry -->
 </config>
